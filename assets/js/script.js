@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 checkAnswer();
             } else {
                 let gameType = this.getAttribute("data-type");
-                alert(`You clicked ${gameType}`);
+                runGame(gameType);
             }
         })
 
